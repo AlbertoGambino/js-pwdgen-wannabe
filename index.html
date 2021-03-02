@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Esercizio Javascript Prompt</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <div class="container">
+
+      <h2>Hai selezionato:</h2>
+      <h1 id="risultato">Risultato</h1>
+    </div>
+
+      <script>
+
+        console.log('hello world');
+
+        var nome = prompt('Come ti chiami?');
+        var cognome = prompt('il tuo cognome?');
+        var colore = prompt('il tuo colore preferito?');
+        var boh = 19
+
+        console.log(nome, cognome, colore, boh);
+
+        document.getElementById('risultato').innerHTML = nome + cognome + colore + boh;
+
+
+      </script>
+
+  </body>
+</html>

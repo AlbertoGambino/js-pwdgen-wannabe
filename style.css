@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+  color: white;
+
+}
+
+.container h2{
+  text-align:center;
+  padding-top: 150px;
+  padding-bottom: 50px;
+  font-size: 50px;
+
+}
+
+.container h1{
+  text-align: center;
+  font-size: 70px;
+  
+}
+
+#risultato{
+  color: gold;
+}
